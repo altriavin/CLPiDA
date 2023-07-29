@@ -1,0 +1,14 @@
+# Common Features
+PIRNA_ID_FIELD: piRNA_id:token
+DISEASE_ID_FIELD: disease_id:token
+RATING_FIELD: rating:float
+TIME_FIELD: timestamp:float
+# Selectively Loading
+load_cols: [piRNA_id:token, disease_id:token, timestamp:float]
+
+# Filtering
+max_piRNA_inter_num: ~
+min_piRNA_inter_num: ~
+max_disease_inter_num: ~
+min_disease_inter_num: ~
+
